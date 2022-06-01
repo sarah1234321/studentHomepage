@@ -1,0 +1,334 @@
+/* @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default'; */
+
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+}
+
+.langing-bg{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/landing-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    
+    
+}
+.mat-h2, .mat-title, .mat-typography h2, .mat-h4, .mat-subheading-1, .mat-typography h4{
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+}
+.password-bg{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/password2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    
+}
+
+.login-bg{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/login.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    
+}
+
+.register-bg{
+    min-height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/register.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    
+}
+
+.desires-bg{
+    min-height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/desires.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    
+}
+
+.d-lg-none .profile-link a,  .login-lan .profile-link a{
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 3px 15px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.d-lg-none .profile-link a:hover, .login-lan .profile-link a:hover{
+    border: 2px solid rgb(0, 0, 46);
+    color: #fff;
+    background-color: rgb(0, 0, 46);
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+
+.logo-section{
+    padding-top: 50px;
+}
+
+.desc-section{
+    margin-top: 0px;
+    color: #fff;
+}
+
+.landing-header{
+    margin-top: 30px;
+    color: #fff;
+}
+
+.goTo-btn{
+    background-color: rgb(0, 0, 46);
+    color: #fff!important;
+    transition: .3s;
+    border: 2px solid rgb(0, 0, 46);
+}
+.prim-color{
+    color: rgb(0,0,46);
+}
+.goTo-btn:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 46)!important;
+}
+
+.form-section{
+    padding: 30px 0;
+
+}
+
+.redStar{
+    color: red;
+}
+
+.student-form select{
+    padding-top: 2px;
+}
+
+
+#otherKnow{
+    display: none;
+}
+
+#otherCertificate{
+    display: none;
+}
+
+.form-footer{
+    padding: 20px;
+    background-color: rgb(248 248 248);
+}
+
+.forgot-password-link{
+    color: rgb(0, 0, 46);
+    cursor: pointer;
+}
+
+.modal-header .close{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.number-id{
+    display: none;
+}
+
+.number-passport{
+    display: none;
+}
+
+.change-password-content{
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.change-password-content label{
+    color: rgb(0, 0, 46);
+}
+
+.popup-mesages {
+    position: absolute;
+    width: 100%;
+    bottom: -80px;
+    left: 0;
+    z-index: 999999;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.errorMessage, .successMessage{
+    /* display: none; */
+    text-align: center;
+    padding: 20px;
+}
+
+.errorMessage {
+    background-color: rgb(226, 118, 118);
+    color: #000;
+}
+
+.successMessage {
+    background-color: rgb(141, 218, 174);
+    color: rgb(25, 75, 25);
+}
+
+#file-upload {
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+
+#file-upload-filename {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 50px;
+    max-width: 230px;
+}
+
+.upload-btn {
+    background-color: #3ac569 !important;
+    color: #fff !important;
+
+}
+
+.upload-btn:hover {
+    background-color: #3ac569 !important;
+    color: #fff !important;
+
+}
+
+.delete-btn {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.success-btn {
+    background-color: #00AB66 !important;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.tableTitle {
+    width: 40% !important;
+    max-width: 40%;
+    word-wrap: break-word;
+    text-align: right!important;
+}
+
+.download-link{
+    background-color: #3ac569 !important;
+    color: #fff !important;
+}
+
+.edit-btn {
+    background-color: rgb(136, 136, 136) !important;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+
+.form-required-message {
+    color: red;
+    font-size: 13px;
+    padding: 5px 12px;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.body-container{
+    min-height: 50vh;
+}
+
+
+.inlineBtn{
+    align-self: center;
+    padding-top: 15px;
+}
+.alt-btn {
+    background-color: rgb(105,105,105);
+    color: #fff !important;
+    transition: .3s;
+    border: 2px solid rgb(105,105,105);
+}
+
+    .alt-btn:hover {
+        background-color: #fff;
+        color: rgb(105,105,105) !important;
+    }
+
+
+table thead th {
+    vertical-align: middle;
+}
+
+.colored-table{
+    background-color: #f5f5f5;
+}
+#configurationTable {
+    border-bottom: 1px solid #666666;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trix-button--icon-attach {
+    display: none;
+}
+
+
+.cardStyle {
+    border-right: 0.5px solid black;
+}
+
+@media (max-width:850px) {
+    .cardStyle {
+        border-right: none;
+    }
+}
+    
+ /* Chrome, Safari, Edge, Opera */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+ /* Firefox */
+ #passportID, #nationalID {
+     -moz-appearance: textfield;
+ }
+ .better-ux {
+    text-align: center;
+}

@@ -1,0 +1,644 @@
+body{
+    direction: ltr;
+    text-align: left;
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+    padding-right: 0!important;
+}
+
+@media (max-width: 768px){
+    .langing-bg, .password-bg, .login-bg, .register-bg, .desires-bg, .faq-bg {
+        background-attachment: scroll!important;
+    }
+}
+.mat-h2, .mat-title, .mat-typography h2, .mat-h4, .mat-subheading-1, .mat-typography h4, .mat-h5, .mat-typography h5{
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+}
+.langing-bg {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/home01.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.password-bg {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/password2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.login-bg {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/home01.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.register-bg {
+    min-height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/register.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    padding-top: 25px;
+}
+
+.desires-bg {
+    min-height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/desires.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    padding-top: 25px;
+}
+
+.faq-bg {
+    min-height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/faq-bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+    padding-top: 25px;
+}
+
+.d-lg-none .profile-link a , .login-lan .profile-link a{
+    border: 2px solid #fff;
+    color: #fff!important;
+    padding: 8px 15px 2px;
+    height: 37px;
+    border-radius: 5px;
+    transition: .3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.d-lg-none .profile-link a:hover, .login-lan .profile-link a:hover{
+    border: 2px solid rgb(0, 0, 46);
+    padding: 8px 15px 2px;
+    color: #fff!important;
+    background-color: rgb(0, 0, 46);
+}
+
+.logo-section{
+    padding-top: 50px;
+}
+
+.desc-section{
+    margin-top: 0px;
+    color: #fff;
+}
+
+.landing-header{
+    margin-top: 30px;
+    color: #fff;
+}
+
+.goTo-btn{
+    background-color: rgb(0, 0, 46);
+    color: #fff!important;
+    transition: .3s;
+    border: 2px solid rgb(0, 0, 46);
+}
+
+.goTo-btn:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 46)!important;
+}
+
+
+.form-section{
+    padding: 30px 0;
+
+}
+
+.redStar{
+    color: red;
+}
+
+.student-form select{
+    padding-top: 2px;
+}
+
+
+#otherKnow{
+    display: none;
+}
+
+#otherCertificate{
+    display: none;
+}
+
+.form-footer{
+    padding: 20px;
+    background-color: rgb(248 248 248);
+}
+
+.forgot-password-link{
+    color: rgb(0, 0, 46);
+    cursor: pointer;
+}
+
+.modal-header .close{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.number-id{
+    display: none;
+}
+
+.number-passport{
+    display: none;
+}
+
+.change-password-content{
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.change-password-content label{
+    color: rgb(0, 0, 46);
+}
+
+.popup-mesages {
+    position: absolute;
+    width: 100%;
+    bottom: -80px;
+    left: 0;
+    z-index: 999999;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.errorMessage, .successMessage{
+    /* display: none; */
+    text-align: center;
+    padding: 20px;
+}
+
+.errorMessage {
+    background-color: rgb(226, 118, 118);
+    color: #000;
+}
+
+.successMessage {
+    background-color: rgb(141, 218, 174);
+    color: rgb(25, 75, 25);
+}
+
+#file-upload {
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+
+#file-upload-filename {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 50px;
+    max-width: 230px;
+}
+
+#picture {
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+
+#receipt-filename {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 50px;
+    max-width: 230px;
+}
+
+.upload-small-btn {
+    background-color: #3ac569 !important;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.upload-btn {
+    background-color: #3ac569 !important;
+    color: #fff !important;
+    border: 2px solid #3ac569;
+}
+
+.upload-btn:hover {
+    background-color: #3ac569 !important;
+    color: #fff !important;
+}
+
+.receipt-upload-btn {
+    background-color: rgb(0, 0, 46);
+    color: #fff !important;
+}
+
+.receipt-upload-btn:hover {
+    background-color: rgb(0, 0, 46);
+    color: #fff !important;
+}
+
+.delete-btn {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.submit-btn {
+    background-color: rgb(0, 0, 46) !important;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.tableTitle {
+    width: 40% !important;
+    max-width: 40%;
+    word-wrap: break-word;
+    text-align: left!important;
+}
+
+.download-link{
+    background-color: #3ac569 !important;
+    color: #fff !important;
+}
+
+.edit-btn {
+    background-color: rgb(136, 136, 136) !important;
+    color: #fff !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.faq-link {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: rgb(0, 0, 46);
+    color: #fff !important;
+    transition: .3s;
+    text-align: center;
+    font-size: 12px;
+    padding: 14px 5px;
+    z-index: 99999999;
+}
+
+.faq-link:hover {
+    text-decoration: none;
+}
+
+.question-link {
+    padding: 3px 10px;
+}
+
+.answers-container {
+    padding: 10px 20px;
+}
+
+.question-link button {
+    color: rgb(0, 0, 46);
+    font-weight: 600;
+    text-align: right !important;
+    white-space: normal !important;
+    width: 100%;
+}
+
+.question-link button:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 46);
+}
+
+#accordion .card {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.form-required-message {
+    color: red;
+    font-size: 13px;
+    padding: 5px 12px;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer-link {
+    color: rgb(0, 0, 46);
+    transition: .3s;
+}
+
+.login-forgot{
+    text-align: right;
+}
+
+.calendar-table {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.dropdown-menuList {
+    display: inline-block;
+}
+
+.dropdown-menuList button {
+    background-color: rgb(0, 0, 46);
+    border-color: rgb(0, 0, 46);
+}
+
+.dropdown-menuList .dropdown-item {
+    color: #00002e !important;
+}
+
+.dropdown-menuList .dropdown-item:hover {
+    color: #fff !important;
+}
+
+.dropdown-menuList button:hover, .dropdown-menuList button:focus {
+    background-color: rgb(0, 0, 46) !important;
+    border-color: rgb(0, 0, 46) !important;
+}
+
+#exam-upload-btn {
+    padding-top: 30px;
+}
+
+.modal-open {
+    padding-right: 0px !important;
+}
+
+.home-slogan {
+    padding: 5px 20px;
+    color: #ffb800;
+}
+
+.disclaimer {
+    background-color: #d0ffe0;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.disclaimer li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+.red-disclaimer {
+    background-color: #ffcece;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.red-disclaimer li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+.yellow-disclaimer {
+    background-color: #ffb800;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+    .yellow-disclaimer li {
+        list-style-type: disc;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+#PaymentReceipt-filename {
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+
+
+ /* Chrome, Safari, Edge, Opera */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+ /* Firefox */
+ #passportID, #nationalID {
+     -moz-appearance: textfield;
+ }
+ .better-ux {
+    text-align: center;
+}
+/* angular adjusts */
+
+.form-control{
+    font-size: 0.8rem;
+}
+ul.no-bullets {
+    list-style: none;
+}
+html.ar  body{
+    direction: rtl;
+    text-align: right;
+	}
+	html.ar select option {
+    text-align: right !important;
+	}
+	.d-lg-none html.ar .profile-link a:hover, .login-lan html.ar .profile-link a:hover{
+        border: 2px solid rgb(0, 0, 46);
+        color: #fff!important;
+        background-color: rgb(0, 0, 46);
+    }
+ html.ar .tableTitle {
+   
+    text-align: right !important;
+}
+ html.ar .login-forgot {
+    text-align: left;
+}
+   html.ar  .dropdown-menuList .dropdown-item {
+ text-align: right;
+    }
+
+.change-password-content label{
+    margin-top: 0.5rem;
+    margin-bottom: 0.35rem;
+    font-weight: bold;
+}
+
+.welcome-hr{
+    width: 50%;
+    margin: revert;
+    margin-block: 15px;
+    height: 3px!important;
+    border-color: #f5f5f5;
+    color: white;
+    opacity: 1;
+}
+.content-brief h5 {
+    font-size: 1.2rem;
+}
+
+.topNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .topNav {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .normal-students {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .graduate-students {
+        padding-right: 00px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .normal-students {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .graduate-students {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+.normal-students, .graduate-students {
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.content-div {
+
+    background-color: rgba(220,220,220,0.85);
+    padding: 15px 10px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 3px 3px 15px rgba(255, 0, 0, 0.25);
+}
+
+    .content-div .content-brief h5 {
+        text-align: center;
+        color: rgb(0, 0, 46);
+        font-weight: 900;
+    }
+
+    .content-div .content-brief p {
+        margin-inline: 10%;
+        text-align: center;
+        font-weight: 900;
+        font-size: 1.15rem;
+        padding-bottom: 10px;
+    }
+
+    .content-div .content-actions {
+        text-align: center;
+    }
+
+        .content-div .content-actions hr {
+            width: 50%;
+            border-width: 3px;
+            border-color: #f1f1f1;
+        }
+        label.maleLabel, label.femaleLabel, label.extraLabel{
+            padding-left: 5px;
+            padding-right: 15px;
+        }
+
+
+
+        #refNumberModal h5#exampleModalLongTitle {
+            font-size: 22px;
+            font-weight: 700;
+            color: rgb(0, 0, 46);
+        }
+        #refNumberModal button.close {
+            background-color: transparent;
+            border: 0;
+            font-size: 28px;
+            margin-top: -5px;
+        }
+        #refNumberModal .modal-header,  #refNumberModal .modal-footer{
+            border: 0;
+        }
+        .square-shape {
+            border: 2px solid #888;
+            margin-inline: 40px;
+            margin-block: 30px;
+            text-align: center;
+            padding: 50px 0px 25px 0px;
+        }
+        .square-shape h2{font-weight: 800;}
+        .modal-body.fail.text-center {
+            background-color: #d84c4c;
+            margin-inline: 15px;
+            border-radius: 2px;
+            color: #fff;
+            padding-top: 22px;
+        }
+        .extra.col-12.col-sm-6.col-md-4.mb-3{
+            display: flex;
+            align-items: baseline;
+        }
+
+
+        
+/*CHatbox*/
+
+.changing-x{
+    margin-right: 5px;
+}
+.form-check.d-flex.checking{
+    align-items: baseline;
+}

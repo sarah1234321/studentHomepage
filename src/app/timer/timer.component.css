@@ -1,0 +1,21 @@
+
+.wrapper {
+  max-width: 300px;
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.block h6 {
+  font-size: 25px!important;
+  font-weight: 900;
+  color: #a90000;
+}
+.block {
+  text-align: center;
+}
+.block p {
+  color: rgb(0,0,42);
+  font-weight: 900;
+  font-size: 25px;
+}
