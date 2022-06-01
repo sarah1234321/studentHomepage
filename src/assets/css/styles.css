@@ -20,7 +20,7 @@ body{
 .mat-h2, .mat-title, .mat-typography h2, .mat-h4, .mat-subheading-1, .mat-typography h4{
     font-family: 'Droid Arabic Kufi', sans-serif !important;
 }
-.password-bg{
+ /* .password-bg{
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/password2.jpg);
     background-position: center;
@@ -28,9 +28,9 @@ body{
     background-attachment: fixed;
     overflow-y: auto;
     
-}
+} */
 
-.login-bg{
+/* .login-bg{
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/login.jpg);
     background-position: center;
@@ -38,8 +38,8 @@ body{
     background-attachment: fixed;
     overflow-y: auto;
     
-}
-
+} */
+/* 
 .register-bg{
     min-height: 350px;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/register.jpg);
@@ -48,8 +48,8 @@ body{
     background-attachment: fixed;
     overflow-y: auto;
     
-}
-
+} */
+/* 
 .desires-bg{
     min-height: 350px;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/desires.jpg);
@@ -58,7 +58,7 @@ body{
     background-attachment: fixed;
     overflow-y: auto;
     
-}
+} */
 
 .d-lg-none .profile-link a,  .login-lan .profile-link a{
     border: 2px solid #fff;

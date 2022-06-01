@@ -17,7 +17,7 @@ select option {
     text-align: right !important;
 }
 
-.langing-bg {
+/* .langing-bg {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/home01.png);
     background-position: center;
@@ -26,8 +26,8 @@ select option {
     overflow-y: auto;
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
+} */
+/* 
 .password-bg {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/password2.jpg);
@@ -37,8 +37,8 @@ select option {
     overflow-y: auto;
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
+} */
+/* 
 .login-bg {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/home01.png);
@@ -48,8 +48,8 @@ select option {
     overflow-y: auto;
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
+} */
+/* 
 .register-bg {
     min-height: 350px;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/register.jpg);
@@ -58,9 +58,9 @@ select option {
     background-attachment: fixed;
     overflow-y: auto;
     padding-top: 25px;
-}
+} */
 
-.desires-bg {
+/* .desires-bg {
     min-height: 350px;
     background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(../images/desires.jpg);
     background-position: center;
@@ -78,7 +78,7 @@ select option {
     background-attachment: fixed;
     overflow-y: auto;
     padding-top: 25px;
-}
+} */
 
 .d-lg-none .profile-link a, .login-lan .profile-link a {
     border: 2px solid #fff;
